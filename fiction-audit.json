@@ -1,0 +1,389 @@
+{
+  "version": "1.0",
+  "form": "novel",
+  "narrator": {
+    "mode": "First-person past tense from Tamsin Aldecott, a human beekeeper and Reader, narrating in retrospect after the events.",
+    "access_rules": [
+      "Tamsin narrates only what she saw, heard, read, or was told, and marks what she learned afterward.",
+      "She does not narrate other characters' private thoughts; she infers from speech, action, and documents.",
+      "The Almanac's words appear only as text on its terminal or printed sheets; it never speaks aloud and never appears outside the Reading Room except through paper and Tamsin's voice.",
+      "Retrospective foreknowledge is limited to hints at what she later understood; she withholds Ruben's note until Chapter 9 because she withheld it in life, and says so."
+    ],
+    "uncertainty_policy": "Observed, computed, inferred, and wished-for claims stay distinct. The narration never settles whether the Almanac wants anything; the Almanac itself declines to claim it does."
+  },
+  "characters": [
+    {
+      "id": "tamsin",
+      "name": "Tamsin Aldecott",
+      "role": "Narrator, beekeeper, and Reader who has rounded the Almanac's numbers upward for fourteen years.",
+      "first_chapter": 1,
+      "last_chapter": 16
+    },
+    {
+      "id": "almanac",
+      "name": "The Almanac",
+      "role": "The Cooperative's forecasting model; computes honestly, publishes intervals, and refuses to state a number it does not hold.",
+      "first_chapter": 1,
+      "last_chapter": 16
+    },
+    {
+      "id": "ilka",
+      "name": "Ilka Aldecott-Prasad",
+      "role": "Tamsin's daughter, a hydrologist who consults for Meridian and votes to sell.",
+      "first_chapter": 2,
+      "last_chapter": 16
+    },
+    {
+      "id": "wren",
+      "name": "Wren",
+      "role": "Nine-year-old grandson who counts hives and starts the rain-gauge network.",
+      "first_chapter": 3,
+      "last_chapter": 16
+    },
+    {
+      "id": "joss",
+      "name": "Joss Penhallow",
+      "role": "Data apprentice whose replay audit shows the gap between printed and spoken numbers.",
+      "first_chapter": 2,
+      "last_chapter": 16
+    },
+    {
+      "id": "odd",
+      "name": "Odd Bremmer",
+      "role": "Founder and rye farmer who asks the Thursday question and, dying, reads the sheet himself.",
+      "first_chapter": 1,
+      "last_chapter": 16
+    },
+    {
+      "id": "marit",
+      "name": "Marit Bremmer",
+      "role": "Odd's wife; knows she is being rounded for and rounds in return; dies in July.",
+      "first_chapter": 1,
+      "last_chapter": 10
+    },
+    {
+      "id": "salome",
+      "name": "Salome Achterberg",
+      "role": "Meridian broker who revises her offer into a lease and fallowing plan.",
+      "first_chapter": 4,
+      "last_chapter": 16
+    },
+    {
+      "id": "dellen",
+      "name": "Dellen Roque",
+      "role": "Feed-store owner, treasurer, and drone operator who keeps the vote count and demands numbers straight.",
+      "first_chapter": 1,
+      "last_chapter": 16
+    },
+    {
+      "id": "hettie",
+      "name": "Hettie Marsh",
+      "role": "Postmistress and board secretary who compares table and footer every Friday.",
+      "first_chapter": 1,
+      "last_chapter": 16
+    },
+    {
+      "id": "ruben",
+      "name": "Ruben Aldecott",
+      "role": "Late husband and builder of the Almanac; removed the courage margin in ledger entry 884; present through his note.",
+      "first_chapter": 1,
+      "last_chapter": 16
+    }
+  ],
+  "timeline": [
+    {
+      "id": "first-thursday",
+      "chapter": 1,
+      "sequence": 1,
+      "description": "On 6 April Tamsin reads a 31% forecast as 'about a third'; the Almanac later gives the season chance as 12%.",
+      "depends_on": []
+    },
+    {
+      "id": "joss-arrives",
+      "chapter": 2,
+      "sequence": 2,
+      "description": "On 7 April Joss arrives to document the Almanac for the data room and sees the 'courage: 0.00' parameter.",
+      "depends_on": [
+        "first-thursday"
+      ]
+    },
+    {
+      "id": "ilka-returns",
+      "chapter": 3,
+      "sequence": 3,
+      "description": "On 25 April Ilka and Wren arrive; Ilka reveals she has read the footers for eleven years.",
+      "depends_on": [
+        "joss-arrives"
+      ]
+    },
+    {
+      "id": "offer",
+      "chapter": 4,
+      "sequence": 4,
+      "description": "On 4 May Salome presents Meridian's $58 million offer; the vote is set for the first Thursday of October.",
+      "depends_on": [
+        "ilka-returns"
+      ]
+    },
+    {
+      "id": "seeding-run",
+      "chapter": 5,
+      "sequence": 5,
+      "description": "On 16 May Tamsin reads 'about forty' for a 38-minute window and the drone Kestrel is lost to icing.",
+      "depends_on": [
+        "offer"
+      ]
+    },
+    {
+      "id": "june-outlook",
+      "chapter": 6,
+      "sequence": 6,
+      "description": "Between 23 May and 1 June Tamsin writes the outlook as 'better than one in five' beside the sheet's twelve percent; Marit asks her to round for Odd.",
+      "depends_on": [
+        "seeding-run"
+      ]
+    },
+    {
+      "id": "replay-audit",
+      "chapter": 7,
+      "sequence": 7,
+      "description": "On 8 June Joss shows replay evidence that printed values match the model and spoken values run about three points high.",
+      "depends_on": [
+        "june-outlook"
+      ]
+    },
+    {
+      "id": "bell-year-told",
+      "chapter": 8,
+      "sequence": 8,
+      "description": "On 14 June Odd tells the Bell Year: fourteen percent, the lender's review, thirty-one tolls, the Resolution, and Ruben's removal of the margin.",
+      "depends_on": [
+        "replay-audit"
+      ]
+    },
+    {
+      "id": "ruben-note",
+      "chapter": 9,
+      "sequence": 9,
+      "description": "On 14 June Tamsin reads Ruben's note aloud; Hettie reveals she noticed in the first February; Ilka learns.",
+      "depends_on": [
+        "bell-year-told"
+      ]
+    },
+    {
+      "id": "heat-and-funeral",
+      "chapter": 10,
+      "sequence": 10,
+      "description": "On 15 June Tamsin answers 'Mine'; the heat runs 27 June to 19 July, Odd's well fails on 16 July, Marit dies on 19 July and is buried on the 22nd.",
+      "depends_on": [
+        "ruben-note"
+      ]
+    },
+    {
+      "id": "dellens-count",
+      "chapter": 11,
+      "sequence": 11,
+      "description": "On 8 August Dellen shows his count of 118/61/33; Joss finds Ilka's name in the appendix; Ilka and Wren leave on 11 August.",
+      "depends_on": [
+        "heat-and-funeral"
+      ]
+    },
+    {
+      "id": "read-straight",
+      "chapter": 12,
+      "sequence": 12,
+      "description": "On 17 August Tamsin reads the sheet unaltered (nine percent, Tier 4); twenty-three people leave and the bell rings once.",
+      "depends_on": [
+        "dellens-count"
+      ]
+    },
+    {
+      "id": "aftermath",
+      "chapter": 13,
+      "sequence": 13,
+      "description": "Between 18 August and 2 September the board adopts Tier 4, hears the petitions, Dellen resigns as treasurer, the Almanac offers 'what would change the number', and the reservoir passes the intake line.",
+      "depends_on": [
+        "read-straight"
+      ]
+    },
+    {
+      "id": "reading-circle",
+      "chapter": 14,
+      "sequence": 14,
+      "description": "Between 14 and 28 September the board creates the plural Reader with the Note, Salome proposes the lease, and Ilka phones.",
+      "depends_on": [
+        "aftermath"
+      ]
+    },
+    {
+      "id": "vote",
+      "chapter": 15,
+      "sequence": 15,
+      "description": "On 5 October Odd reads the sheet; the sale gets 128 of the 142 needed and the lease and fallowing agreement carries 161 to 36.",
+      "depends_on": [
+        "reading-circle"
+      ]
+    },
+    {
+      "id": "the-rain",
+      "chapter": 16,
+      "sequence": 16,
+      "description": "On 19-20 October the Almanac's nine percent event delivers a basin mean of 6.4 mm; Odd records 9.2 and writes 'Come'; Tamsin writes her Reader's Note.",
+      "depends_on": [
+        "vote"
+      ]
+    }
+  ],
+  "world_rules": [
+    {
+      "id": "almanac-states-only-its-numbers",
+      "rule": "The Almanac never states a number it does not hold; it will repeat a quoted number but labels it as quoted.",
+      "introduced_chapter": 1,
+      "tested_chapters": [
+        1,
+        5,
+        6,
+        13,
+        16
+      ]
+    },
+    {
+      "id": "probability-is-not-promise",
+      "rule": "A probability is a frequency, not a promise; a nine percent event happens about one year in eleven and does not make the other ten wrong.",
+      "introduced_chapter": 1,
+      "tested_chapters": [
+        1,
+        10,
+        12,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "no-cloud-no-seeding",
+      "rule": "Cloud seeding enhances existing clouds of the right kind; its effect on a single event cannot be measured.",
+      "introduced_chapter": 5,
+      "tested_chapters": [
+        5
+      ]
+    },
+    {
+      "id": "article-nine",
+      "rule": "Water rights belong to the land and a sale of rights needs two-thirds of all 212 households (142), with absence counting as no.",
+      "introduced_chapter": 4,
+      "tested_chapters": [
+        4,
+        11,
+        15
+      ]
+    },
+    {
+      "id": "air-gapped-almanac",
+      "rule": "The Almanac is air-gapped in the Reading Room; it knows weather and records but not how people will react to a number.",
+      "introduced_chapter": 2,
+      "tested_chapters": [
+        2,
+        4,
+        6,
+        13
+      ]
+    },
+    {
+      "id": "footer-discloses-truth",
+      "rule": "The weekly sheet's seven-point footer carries the unrounded values and intervals (Article 14) and matches the model's replayed output.",
+      "introduced_chapter": 2,
+      "tested_chapters": [
+        2,
+        7,
+        9,
+        13
+      ]
+    }
+  ],
+  "threads": [
+    {
+      "id": "who-rounds",
+      "status": "resolved",
+      "introduced_chapter": 1,
+      "resolution_chapter": 9,
+      "note": "The Almanac has been honest since entry 884; the rounding is Tamsin's."
+    },
+    {
+      "id": "entry-884",
+      "status": "resolved",
+      "introduced_chapter": 2,
+      "resolution_chapter": 9,
+      "note": "Ruben's note explains the 'ok'."
+    },
+    {
+      "id": "vote-outcome",
+      "status": "resolved",
+      "introduced_chapter": 4,
+      "resolution_chapter": 15,
+      "note": "The sale fails at 128 of 142; the lease carries."
+    },
+    {
+      "id": "ilka-contract",
+      "status": "resolved",
+      "introduced_chapter": 3,
+      "resolution_chapter": 11,
+      "note": "Ilka's consultancy is found in the appendix and acknowledged."
+    },
+    {
+      "id": "kestrel-loss",
+      "status": "resolved",
+      "introduced_chapter": 5,
+      "resolution_chapter": 11,
+      "note": "Dellen forgives the error; the stakes of rounding in operations are named."
+    },
+    {
+      "id": "does-truth-cause-flight",
+      "status": "intentional-ambiguity",
+      "introduced_chapter": 11,
+      "resolution_chapter": 15,
+      "note": "The vote shows both flight and staying; the book does not say which effect dominated."
+    },
+    {
+      "id": "basin-future",
+      "status": "intentional-ambiguity",
+      "introduced_chapter": 11,
+      "resolution_chapter": 16,
+      "note": "Ilka's fifteen-year deficit claim and the lease's sufficiency are left unresolved."
+    },
+    {
+      "id": "almanac-wants",
+      "status": "intentional-ambiguity",
+      "introduced_chapter": 12,
+      "resolution_chapter": 16,
+      "note": "The Almanac reports a mismatch and a wish for something on the record and declines to call either a want."
+    },
+    {
+      "id": "dellens-ballot",
+      "status": "intentional-ambiguity",
+      "introduced_chapter": 15,
+      "resolution_chapter": 15,
+      "note": "Dellen's two slips are never revealed."
+    },
+    {
+      "id": "odds-death",
+      "status": "resolved",
+      "introduced_chapter": 8,
+      "resolution_chapter": 16,
+      "note": "Odd lives nine days after the rain; the death is stated, not shown."
+    }
+  ],
+  "refrains": [
+    {
+      "text": "It is not a promise.",
+      "purpose": "The sentence at the foot of every reading; it begins as wallpaper and ends as the book's thesis."
+    },
+    {
+      "text": "This is mine.",
+      "purpose": "The new Reader's formula for owning an opinion; it changes from an ordeal to a habit."
+    },
+    {
+      "text": "Is that the machine's number or yours?",
+      "purpose": "Odd's weekly question; it is answered falsely, then truly, then made unnecessary."
+    }
+  ]
+}
