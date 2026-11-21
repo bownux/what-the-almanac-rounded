@@ -22,7 +22,7 @@ He had put the CLOSED sign in the window. He was sitting on a stool behind the c
 
 He turned the ledger around.
 
-It was a list. It was a long, ruled, hand-drawn list, in the neat square hand of a man who has kept books for twenty-five years, of the two hundred and twelve households of the Carrow Water Cooperative, in the order of the roll. Beside each name were three columns. The first was headed *S.* The second, *N.* The third, with a small unsteady question mark, was left without a heading at all. And in each row but one, in pencil, in a very small hand, there was a single tick.
+It was a list. It was a long, ruled, hand-drawn list, in the neat square hand of a man who has kept books for twenty-five years, of the two hundred and twelve households of the Carrow Water Cooperative, in the order of the roll. Beside each name were three columns. The first was headed *S.* The second, *N.* The third had no heading, only a small unsteady question mark. And in each row but one, in pencil, in a very small hand, there was a single tick.
 
 I read down the first page. *Aldecott, T.* There was no tick in any column. *Bremmer, O.* A tick in *N,* underlined. *Fenn, A.* A tick in *S.* *Harlan, J.* A tick in *S.* *Lindqvist, G.* A tick in the third column, with a note beside it that said *teacher.*
 

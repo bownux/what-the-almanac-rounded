@@ -1,14 +1,14 @@
 {
   "gate": "pass1",
   "version": "1.0",
-  "date": "2026-10-29",
-  "book_dir": "books/what-the-almanac-rounded",
+  "date": "2026-11-20",
+  "book_dir": ".",
   "verdict": "PASS",
   "reject_count": 0,
   "warn_count": 0,
   "findings": [],
   "measured": {
-    "body_words_measured": 63630,
+    "body_words_measured": 63633,
     "print_equivalent_pages": 212,
     "chapter_words": {
       "ch01-the-thursday-number.md": 4630,
@@ -21,12 +21,12 @@
       "ch08-the-bell-year.md": 4063,
       "ch09-commit-884.md": 3604,
       "ch10-heat.md": 3915,
-      "ch11-dellens-count.md": 3850,
+      "ch11-dellens-count.md": 3846,
       "ch12-the-thursday-i-read-it-straight.md": 3963,
       "ch13-aftermath-of-a-number.md": 3976,
       "ch14-a-reading-circle.md": 3640,
       "ch15-the-first-thursday-of-october.md": 4098,
-      "ch16-nine-percent.md": 4502
+      "ch16-nine-percent.md": 4509
     },
     "padding_metrics": {
       "profile": "fiction-v1",
@@ -91,7 +91,7 @@
     "shelf_metrics": {
       "shelf": "fiction",
       "form": "novel",
-      "measured_words": 63630,
+      "measured_words": 63633,
       "continuity_audit": "PASS",
       "character_count": 11,
       "timeline_events": 16,

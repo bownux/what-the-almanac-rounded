@@ -8,7 +8,7 @@ I would not have said that I wanted to. I went up all the same.
 
 The sheet that Brigid had read was on the lectern. I looked at it once more, for the form of it. *Next seven days: chance of a wetting rain, twelve millimeters or more, basin average: nine percent. Interval: five to fifteen.* The Almanac had added a note, which was in the footer, in the same small type as everything else. *The dip in the upper-level flow has deepened. It is now centered south-west of the coast. This is the pattern I have associated with the autumn rains in nine of sixty-one years. I give it nine percent because the pattern does not guarantee the rain; it only makes it possible.*
 
-"Nine percent," I said. "That's the Almanac's. It's the highest it's been since the middle of August. It's up from seven." I took off my glasses, and found that I did not need them. The gray place at the center of things had spread a little that month, but the light in the grange was good, and I had learned to read the lines by their edges. "This is mine."
+"Nine percent," I said. "That's the Almanac's. It's for the week's rain, not for the season. It was four in the middle of August. It's up from seven." I took off my glasses, and found that I did not need them. The gray place at the center of things had spread a little that month, but the light in the grange was good, and I had learned to read the lines by their edges. "This is mine."
 
 I had thought a great deal about what I would say. I had drafted it in the creamery in four versions. I found that I had not brought any of them.
 

@@ -3,8 +3,8 @@
 ## Chronology (fiction calendar; weekdays fixed: 6 April is a Thursday)
 - Almanac installed 22 years before the story. Ruben Reader years 1–8.
 - Bell Year: year 5 (17 years before). Fourteen percent given 9 December; lender reviews;
-  thirty-one households leave in seven weeks, first (Pearson) in the first week of February,
-  last on 31 March (the Harlans). Dellen (46) was 29 then, a young man behind the store counter.
+  thirty-one households leave in eight weeks (Odd's count; Saturday 4 February to 31 March is
+  55 days), first (Pearson) in the first week of February, last on 31 March (the Harlans). Dellen (46) was 29 then, a young man behind the store counter.
   Odd's drawer labels carry two-digit years ('04 to '65); no century is given, so weekdays follow
   the fiction calendar above, not a real one.
 - Bell Resolution: that winter, 7–2 (Ruben and Odd dissent). Courage 0.04 added: a fraction, applied as

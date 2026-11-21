@@ -9,7 +9,7 @@
       "The Almanac's words appear only as text on its terminal or printed sheets; it never speaks aloud and never appears outside the Reading Room except through paper and Tamsin's voice.",
       "Retrospective foreknowledge is limited to hints at what she later understood; she withholds Ruben's note until Chapter 9 because she withheld it in life, and says so."
     ],
-    "uncertainty_policy": "Observed, computed, inferred, and wished-for claims stay distinct. The narration never settles whether the Almanac wants anything; the Almanac itself declines to claim it does."
+    "uncertainty_policy": "Observed, computed, inferred, and wished-for claims stay distinct. The narration never settles whether the Almanac wants anything. The Almanac declines to call its mismatch a want; it claims a want once, in Chapter 16, that a thing be on the record, and the narration does not decide what that is."
   },
   "characters": [
     {
@@ -365,7 +365,7 @@
       "status": "intentional-ambiguity",
       "introduced_chapter": 12,
       "resolution_chapter": 16,
-      "note": "The Almanac reports a mismatch and a wish for something on the record and declines to call either a want."
+      "note": "The Almanac reports a mismatch and declines to call it a want; in Chapter 16 it says once that it wants it on the record that a nine percent is not a zero. Whether that is a want in any fuller sense is left open."
     },
     {
       "id": "dellens-ballot",
