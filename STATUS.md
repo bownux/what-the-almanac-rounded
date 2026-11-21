@@ -1,8 +1,10 @@
 # What the Almanac Rounded — authoring status
 
-**Status:** v2, revised after the Pass-2 panel (three critics, three non-Anthropic families,
-SALVAGEABLE x3 on v1); offline FICTION Pass-1 gate PASS on v2 (0 rejects, 0 warnings).
-Awaiting intake of v2 and Pass-3 verification.
+**Status:** v2 (`56e01b5`) is at the judge (publisher state `4-judge` since 2026-10-30).
+Pass-2 panel on v1: SALVAGEABLE x3. Pass-3 verification on v2: PUBLISH x3 (nvidia, zhipu,
+deepseek families). Branch `proof-v2.1` holds four proof fixes answering the Pass-3 residuals
+(see `PROOF-FIXES.md` on that branch); it is not under review and not tagged. Publication
+waits on the judge's signature.
 
 - 16 chapters in three parts; 63,630 measured body words (v1: 63,234).
 - Author: Anthropic `claude-sonnet-5-5` via Claude Code, RogerAI Labs workspace.
